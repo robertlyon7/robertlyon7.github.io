@@ -25,7 +25,7 @@ export default function Contact() {
           <a href="https://github.com/robertlyon7" className="text-[var(--fg-muted)] hover:text-lavender transition-colors">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/robertlyon7" className="text-[var(--fg-muted)] hover:text-lavender transition-colors">
+          <a href="https://www.linkedin.com/in/robert-istanto-a2284a271" className="text-[var(--fg-muted)] hover:text-lavender transition-colors">
             LinkedIn
           </a>
           <a href="https://drive.google.com/file/d/1IbFeMStkrC2IjoM7Z0FDqCrN4enoPzhW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-[var(--fg-muted)] hover:text-lavender transition-colors">

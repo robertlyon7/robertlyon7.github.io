@@ -1,24 +1,19 @@
 # Portfolio
 
-Personal portfolio site built with Next.js 14 (App Router), Tailwind CSS, and Framer Motion. Vercel-ready.
+## Features
 
-## Run locally
+- **Single-page layout** with Hero, About, Projects, Skills, and Contact sections
+- **Light/dark mode** theme switching powered by next-themes
+- **Scroll-based animations** and smooth transitions via Framer Motion
+- **Interactive cursor glow** effect that follows the mouse
+- **Fully responsive** design that adapts across desktop, tablet, and mobile
 
-```bash
-npm install
-npm run dev
-```
+## Technologies
 
-Then open http://localhost:3000.
+This site is built with [Next.js 14](https://nextjs.org/) using the App Router and [React 18](https://react.dev/), written in [TypeScript](https://www.typescriptlang.org/) for type safety. Styling is handled with [Tailwind CSS](https://tailwindcss.com/) (processed through [PostCSS](https://postcss.org/) and [Autoprefixer](https://github.com/postcss/autoprefixer)), while [Framer Motion](https://www.framer.com/motion/) powers the animations and transitions and [next-themes](https://github.com/pacocoursey/next-themes) provides light/dark theme switching.
 
-## Where to edit
+## Website link
 
-- `data/projects.ts` — project list
-- `data/skills.ts` — skill groups
-- `components/Hero.tsx`, `About.tsx`, `Contact.tsx` — copy and bio
-- `tailwind.config.js` — color palette
-- `app/layout.tsx` — metadata and fonts
+Hosted using vercel:
+https://robert-lyon.vercel.app/
 
-## Deploy
-
-Push to GitHub, import the repo into Vercel — no extra config needed.
