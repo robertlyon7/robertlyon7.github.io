@@ -29,6 +29,12 @@ module.exports = {
         lavender: {
           DEFAULT: '#CBAAF9',
         },
+        teal: {
+          DEFAULT: '#5EC8C2',
+        },
+        rose: {
+          DEFAULT: '#E58FB1',
+        },
       },
       fontFamily: {
         serif: ['var(--font-manrope)', 'sans-serif'],

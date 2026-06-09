@@ -1,5 +1,8 @@
 # Portfolio
 
+Personal Website Portofolio Robert Lyon Istanto
+Showcasing my projects, achievments, and contacts
+
 ## Features
 
 - **Single-page layout** with Hero, About, Projects, Skills, and Contact sections

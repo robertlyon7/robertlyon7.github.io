@@ -11,6 +11,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: 'Stepping Stone',
+    description:
+      'A web platform that helps university students build their professional presence — offering services for crafting resumes, portfolios, and LinkedIn profiles to kickstart their careers.',
+    tags: ['Next.js', 'TypeScript', 'JavaScript', 'TailwindCSS'],
+    categories: ['Frontend Web'],
+    image: '/projects/steppstone.jpeg',
+    github: 'https://github.com/robertlyon7/Stepping-Stone',
+    live: 'https://steppstone.vercel.app/',
+  },
+  {
     title: 'Bahasa Buddy',
     description:
       'A language learning web app that helps users practice Indonesian through interactive exercises and real-life scenarios. Built with a custom AI chatbot tutor and spaced repetition flashcards.',
