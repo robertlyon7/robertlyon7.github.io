@@ -9,6 +9,13 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
   {
+    title: 'Google Cloud Career Launchpad — Generative AI Leader',
+    issuer: 'Google Cloud',
+    date: '2026',
+    description: 'Completed all courses and labs in the Generative AI Leader track, covering generative AI concepts, applications, and leadership on Google Cloud.',
+    image: '/google_cert.jpg',
+  },
+  {
     title: 'Alibaba Cloud Certified Associate — Cloud Engineer',
     issuer: 'Alibaba Cloud',
     date: '2025',

@@ -19,7 +19,12 @@ export default function Achievements() {
           >
             <span className="absolute left-0 top-0 bottom-0 w-1 bg-rose scale-y-0 group-hover:scale-y-100 origin-top transition-transform duration-300" />
 
-            <div className="relative flex aspect-[3/2] items-center justify-center border-b border-[var(--border)] bg-[var(--bg-hover)]/40 p-6">
+            <a
+              href={a.link ?? a.image}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative flex aspect-[3/2] items-center justify-center overflow-hidden border-b border-[var(--border)] bg-[var(--bg-hover)]/40 p-6"
+            >
               {a.image ? (
                 <Image
                   src={a.image}
@@ -28,10 +33,17 @@ export default function Achievements() {
                   sizes="(min-width: 640px) 50vw, 100vw"
                   className="object-contain p-6"
                 />
+              ) : a.link?.endsWith('.pdf') ? (
+                <object
+                  data={`${a.link}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
+                  type="application/pdf"
+                  aria-label={`${a.title} certificate preview`}
+                  className="pointer-events-none absolute inset-0 h-full w-full"
+                />
               ) : (
                 <span className="font-serif text-5xl text-rose/40">★</span>
               )}
-            </div>
+            </a>
 
             <div className="flex flex-1 flex-col p-6">
               <span className="mb-3 inline-block w-fit rounded-full bg-rose/10 px-3 py-0.5 text-xs font-mono text-rose">
